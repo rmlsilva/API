@@ -3,7 +3,6 @@ const AppError = require("../utils/AppError");
 const DiskStorage = require("../providers/DiskStorage");
 
 
-//teste wuzi
 class UsersAvatarController {
     async update(request, response){
         const user_id = request.user.id;
